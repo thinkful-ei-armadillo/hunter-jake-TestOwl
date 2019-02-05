@@ -1,7 +1,7 @@
 import React from 'react';
 
-function chat() {
+function Chat() {
   return('')
 }
 
-export default chat;
+export default Chat;

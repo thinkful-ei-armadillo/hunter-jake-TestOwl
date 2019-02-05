@@ -1,7 +1,7 @@
 import React from 'react';
 
-function stage (){
+function Stage (){
   return ('')
 }
 
-export default stage:
+export default Stage;
