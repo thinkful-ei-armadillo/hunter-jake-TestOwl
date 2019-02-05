@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Stage from './List';
+import List from './List';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

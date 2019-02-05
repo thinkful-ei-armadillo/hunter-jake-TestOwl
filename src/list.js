@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ActiveUser(props){
+function List(props){
     const status = props.onStage ? 'on stage' : '';
 return (
     <div class="participant">
@@ -13,4 +13,4 @@ return (
     );
 }
 
-export default ActiveUser;
+export default List;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Stage from './Chat';
+import Chat from './Chat';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
