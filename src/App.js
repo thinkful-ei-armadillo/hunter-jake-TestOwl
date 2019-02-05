@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import UserList from './UserList';
+import Stage from './Stage';
 
 
 
@@ -13,16 +14,20 @@ class App extends Component{
 
   render(){
   const {store} = this.props;
-
   return (
+    <div className = "display-container">
       <div className="userList">
         <UserList
           key={store.participants.id}
-          avatar={store.participants.avatar}
-          name={store.participants.name}
-          onStage={store.participants.onStage}
           />
       </div>
+
+      <div className="onStage">
+      <Stage
+         key={store.participants.id}
+         />
+      </div>
+    </div>
   )
 }
 }

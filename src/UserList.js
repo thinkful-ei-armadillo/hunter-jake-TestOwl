@@ -1,5 +1,5 @@
 import React from "react";
-import STORE from './store'
+import STORE from './store';
 
 function UserList(props) {
   let onStage = [];
