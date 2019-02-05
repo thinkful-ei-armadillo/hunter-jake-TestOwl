@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Chat() {
-  return('')
+  return(
+  <p>placeholder</p>
+  );
 }
 
 export default Chat;
