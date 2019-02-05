@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 function activeUser(props){
     const status = props.onStage ? 'on stage' : '';
@@ -12,3 +12,5 @@ return (
     </div>
     );
 }
+
+export default activeUser;
