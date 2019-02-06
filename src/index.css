@@ -94,3 +94,26 @@ ul.onStage img {
   border-radius: 50%;
   background-color: aliceblue;
 }
+
+div.onStage p {
+  visibility: hidden;
+}
+
+div.chatLog {
+  position: absolute;
+  float: left;
+  top: 25px;
+  font-size: 70%;
+  height: 100vh;
+  width: 20%;
+}
+
+div.chatLog {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+div.chatLog p {
+  width: 100px;
+  background-color: none;
+}

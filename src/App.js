@@ -28,7 +28,7 @@ class App extends Component{
          key={store.participants.id}
          />
       </div>
-      <div className="chatLog">
+      <div className="chatLogContainer">
       <Chat
         key={store.chatEvents.participantId}
         />
