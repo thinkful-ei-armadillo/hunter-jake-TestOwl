@@ -7,3 +7,12 @@ it('renders without crashing', () => {
   ReactDOM.render(<Chat />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+// describe('<Chat />', () => {
+//   it('renders the UI as expected', () => {
+//     const tree = renderer
+//       .create(<Chat />)
+//       .toJSON();
+//     expect(tree).toMatchSnapshot();  
+//     });
+// })

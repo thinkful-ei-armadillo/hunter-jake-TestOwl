@@ -1,7 +1,7 @@
 import React from "react";
 import STORE from './store';
 
-function UserList(props) {
+function UserList() {
   let onStage = [];
   let inSession = [];
   for(let i =0; i<STORE.participants.length; i++){
@@ -15,21 +15,23 @@ function UserList(props) {
 
   return(
     <div className = 'ActiveList'>
-    <ul>
+    <ul className="onStage">
       {onStage.map(onStage =>  
       <li>
+        <div className="onStageParagraph">
+          <p className="stageName">{onStage.name}</p>
+          <p>On Stage</p>
+        </div>
         <img src={onStage.avatar} alt="onStage.name" />
-        <p>{onStage.name}</p> 
-        <p>On Stage</p>
         </li>)}
       </ul>
 
-      <ul>
+      <ul className="inSession">
       {inSession.map(inSession =>  
       <li>
-        <img src={inSession.avatar} alt="inSession.name" />
-        <p>{inSession.name}</p>
+        <p className="sessionName">{inSession.name}</p>
          <p>In Session</p>
+         <img src={inSession.avatar} alt="inSession.name" />
          </li>)}
       </ul>
     </div>

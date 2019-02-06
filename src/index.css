@@ -1,3 +1,8 @@
+* {
+  list-style: none;
+  background: rgb(121, 121, 121);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +16,81 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ActiveList {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+ul.onStage {
+  height: 100%;
+}
+
+ul.onStage li {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.onStageParagraph {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  border-style: hidden;
+  width: 140px;
+  height: 80px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+
+ul.onStage p {
+  background: none;
+  vertical-align: text-bottom;
+  font-size: 12pt;
+}
+
+p.stageName {
+  vertical-align: text-top;
+  border-bottom: solid 3px green;
+}
+
+ul.inSession {
+  align-content: center;
+  height: 100%;
+}
+
+ul.inSession li {
+  border-style: hidden;
+  width: 140px;
+  height: 140px;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  display: inline-block;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+ul.inSession p {
+  background: none;
+  vertical-align: text-top;
+  border-top: solid 3px red;
+}
+
+ul.inSession img {
+  width: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+
+p.sessionName {
+  visibility: hidden;
+}
+
+ul.onStage img {
+  width: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: aliceblue;
 }

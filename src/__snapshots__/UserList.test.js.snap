@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserList /> renders the UI as expected 1`] = `
+<div
+  className="ActiveList"
+>
+  <ul>
+    <li>
+      <img
+        alt="onStage.name"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+      <p>
+        Koren Templeton
+      </p>
+      <p>
+        On Stage
+      </p>
+    </li>
+    <li>
+      <img
+        alt="onStage.name"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+      <p>
+        Ashla Attwool
+      </p>
+      <p>
+        On Stage
+      </p>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <img
+        alt="inSession.name"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+      <p>
+        Caty Flucker
+      </p>
+      <p>
+        In Session
+      </p>
+    </li>
+    <li>
+      <img
+        alt="inSession.name"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
+      <p>
+        Frank Runciman
+      </p>
+      <p>
+        In Session
+      </p>
+    </li>
+  </ul>
+</div>
+`;
