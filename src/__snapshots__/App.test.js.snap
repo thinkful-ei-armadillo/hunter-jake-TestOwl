@@ -2,63 +2,255 @@
 
 exports[`<App /> renders the UI as expected 1`] = `
 <div
-  className="userList"
+  className="display-container"
 >
   <div
-    className="ActiveList"
+    className="userList"
   >
-    <ul>
-      <li>
+    <div
+      className="ActiveList"
+    >
+      <ul
+        className="onStage"
+      >
+        <li>
+          <div
+            className="onStageParagraph"
+          >
+            <p
+              className="stageName"
+            >
+              Koren Templeton
+            </p>
+            <p>
+              On Stage
+            </p>
+          </div>
+          <img
+            alt="onStage.name"
+            src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+          />
+        </li>
+        <li>
+          <div
+            className="onStageParagraph"
+          >
+            <p
+              className="stageName"
+            >
+              Ashla Attwool
+            </p>
+            <p>
+              On Stage
+            </p>
+          </div>
+          <img
+            alt="onStage.name"
+            src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+          />
+        </li>
+      </ul>
+      <ul
+        className="inSession"
+      >
+        <li>
+          <p
+            className="sessionName"
+          >
+            Caty Flucker
+          </p>
+          <p>
+            In Session
+          </p>
+          <img
+            alt="inSession.name"
+            src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+          />
+        </li>
+        <li>
+          <p
+            className="sessionName"
+          >
+            Frank Runciman
+          </p>
+          <p>
+            In Session
+          </p>
+          <img
+            alt="inSession.name"
+            src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="onStage"
+  >
+    <div
+      className="onStage"
+    >
+      <p>
         <img
           alt="onStage.name"
           src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
         />
-        <p>
-          Koren Templeton
-        </p>
-        <p>
-          On Stage
-        </p>
-      </li>
-      <li>
+        Koren Templeton
+      </p>
+      <p>
         <img
           alt="onStage.name"
           src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
         />
-        <p>
-          Ashla Attwool
-        </p>
-        <p>
-          On Stage
-        </p>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <img
-          alt="inSession.name"
-          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
-        />
-        <p>
-          Caty Flucker
-        </p>
-        <p>
-          In Session
-        </p>
-      </li>
-      <li>
-        <img
-          alt="inSession.name"
-          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
-        />
-        <p>
-          Frank Runciman
-        </p>
-        <p>
-          In Session
-        </p>
-      </li>
-    </ul>
+        Ashla Attwool
+      </p>
+    </div>
+  </div>
+  <div
+    className="chatLogContainer"
+  >
+    <div
+      className="chatLog"
+    >
+      <div>
+        <ul>
+          <li>
+            <p>
+              Axe Kubicka
+            </p>
+            <p>
+              5
+              :
+              48
+            </p>
+          </li>
+          <p>
+            Hello world
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Caty Flucker
+            </p>
+            <p>
+              5
+              :
+              48
+            </p>
+          </li>
+          <p>
+            gave a thumbs up
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Frank Runciman
+            </p>
+            <p>
+              5
+              :
+              48
+            </p>
+          </li>
+          <p>
+            gave a thumbs down
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Koren Templeton
+            </p>
+            <p>
+              5
+              :
+              49
+            </p>
+          </li>
+          <p>
+            raised hand
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Koren Templeton
+            </p>
+            <p>
+              5
+              :
+              49
+            </p>
+          </li>
+          <p>
+            clapped
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Koren Templeton
+            </p>
+            <p>
+              5
+              :
+              49
+            </p>
+          </li>
+          <p>
+            joined
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Ashla Attwool
+            </p>
+            <p>
+              5
+              :
+              50
+            </p>
+          </li>
+          <p>
+            left
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Axe Kubicka
+            </p>
+            <p>
+              5
+              :
+              51
+            </p>
+          </li>
+          <p>
+            joined the stage
+          </p>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              Axe Kubicka
+            </p>
+            <p>
+              5
+              :
+              52
+            </p>
+          </li>
+          <p>
+            left the stage
+          </p>
+        </ul>
+         
+      </div>
+    </div>
   </div>
 </div>
 `;

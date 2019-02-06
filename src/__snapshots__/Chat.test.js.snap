@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat /> renders the UI as expected 1`] = `
+<div
+  className="chatLog"
+>
+  <div>
+    <ul>
+      <li>
+        <p>
+          Axe Kubicka
+        </p>
+        <p>
+          5
+          :
+          48
+        </p>
+      </li>
+      <p>
+        Hello world
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Caty Flucker
+        </p>
+        <p>
+          5
+          :
+          48
+        </p>
+      </li>
+      <p>
+        gave a thumbs up
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Frank Runciman
+        </p>
+        <p>
+          5
+          :
+          48
+        </p>
+      </li>
+      <p>
+        gave a thumbs down
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Koren Templeton
+        </p>
+        <p>
+          5
+          :
+          49
+        </p>
+      </li>
+      <p>
+        raised hand
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Koren Templeton
+        </p>
+        <p>
+          5
+          :
+          49
+        </p>
+      </li>
+      <p>
+        clapped
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Koren Templeton
+        </p>
+        <p>
+          5
+          :
+          49
+        </p>
+      </li>
+      <p>
+        joined
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Ashla Attwool
+        </p>
+        <p>
+          5
+          :
+          50
+        </p>
+      </li>
+      <p>
+        left
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Axe Kubicka
+        </p>
+        <p>
+          5
+          :
+          51
+        </p>
+      </li>
+      <p>
+        joined the stage
+      </p>
+    </ul>
+    <ul>
+      <li>
+        <p>
+          Axe Kubicka
+        </p>
+        <p>
+          5
+          :
+          52
+        </p>
+      </li>
+      <p>
+        left the stage
+      </p>
+    </ul>
+     
+  </div>
+</div>
+`;

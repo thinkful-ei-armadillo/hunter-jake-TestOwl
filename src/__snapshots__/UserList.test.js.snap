@@ -4,56 +4,76 @@ exports[`<UserList /> renders the UI as expected 1`] = `
 <div
   className="ActiveList"
 >
-  <ul>
+  <ul
+    className="onStage"
+  >
     <li>
+      <div
+        className="onStageParagraph"
+      >
+        <p
+          className="stageName"
+        >
+          Koren Templeton
+        </p>
+        <p>
+          On Stage
+        </p>
+      </div>
       <img
         alt="onStage.name"
         src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
       />
-      <p>
-        Koren Templeton
-      </p>
-      <p>
-        On Stage
-      </p>
     </li>
     <li>
+      <div
+        className="onStageParagraph"
+      >
+        <p
+          className="stageName"
+        >
+          Ashla Attwool
+        </p>
+        <p>
+          On Stage
+        </p>
+      </div>
       <img
         alt="onStage.name"
         src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
       />
-      <p>
-        Ashla Attwool
-      </p>
-      <p>
-        On Stage
-      </p>
     </li>
   </ul>
-  <ul>
+  <ul
+    className="inSession"
+  >
     <li>
-      <img
-        alt="inSession.name"
-        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
-      />
-      <p>
+      <p
+        className="sessionName"
+      >
         Caty Flucker
       </p>
       <p>
         In Session
       </p>
-    </li>
-    <li>
       <img
         alt="inSession.name"
-        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
       />
-      <p>
+    </li>
+    <li>
+      <p
+        className="sessionName"
+      >
         Frank Runciman
       </p>
       <p>
         In Session
       </p>
+      <img
+        alt="inSession.name"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
     </li>
   </ul>
 </div>

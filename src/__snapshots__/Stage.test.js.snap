@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stage /> renders the UI as expected 1`] = `
+<div
+  className="onStage"
+>
+  <p>
+    <img
+      alt="onStage.name"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    Koren Templeton
+  </p>
+  <p>
+    <img
+      alt="onStage.name"
+      src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+    />
+    Ashla Attwool
+  </p>
+</div>
+`;
