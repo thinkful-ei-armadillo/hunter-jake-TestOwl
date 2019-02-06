@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import UserList from './UserList';
 import Stage from './Stage';
+import Chat from './Chat';
 
 
 
@@ -26,6 +27,11 @@ class App extends Component{
       <Stage
          key={store.participants.id}
          />
+      </div>
+      <div className="chatLog">
+      <Chat
+        key={store.chatEvents.participantId}
+        />
       </div>
     </div>
   )
